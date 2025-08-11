@@ -1,0 +1,26 @@
+"match_id","team1_id","team2_id","match_date","venue","result_summary"
+"2","6","9","2025-08-08 08:24:00","sdfsdfsfsdfd","cascc"
+"3","6","9","2025-08-09 09:52:00","sdfsdfsfsdfd","cascc"
+"4","8","9","2025-08-09 10:42:00","rwr",NULL
+"5","8","9","2025-08-09 10:45:00","sdfsdfsfsdfd","gdfgg"
+"player_id","player_name","role","team_id"
+"3","Virat Kohli","Batsman","14"
+"4","nabil","Bowler","8"
+"score_id","match_id","player_id","runs_scored","wickets_taken","balls_faced","overs_bowled","runs_conceded","fours","sixes","maidens"
+"5","2","3","213","32","0","0.0","0","0","0","0"
+"6","3","3","343","4","0","0.0","0","0","0","0"
+"7","5","4","45","534","0","0.0","0","0","0","0"
+"team_id","team_name","logo_url","captain_id","wk_id","wicket_keeper_id"
+"6","asdrfae",NULL,NULL,NULL,NULL
+"7","fddf",NULL,NULL,NULL,NULL
+"8","efef",NULL,NULL,NULL,NULL
+"9","dfe","images/download (1).png",NULL,NULL,NULL
+"10","dfsdf","images/WBS.png",NULL,NULL,NULL
+"11","sfs","images/baf95319-b411-4b79-91a4-7d1be4489984.jpeg",NULL,NULL,NULL
+"12","sdsd","images/WBS.png",NULL,NULL,NULL
+"14","sdsdsd","images/logo_6896d099839797.99793971.webp","3",NULL,"3"
+"user_id","username","email","password","role"
+"1","admin",,"$2y$10$8rXuoehuEuaZi3uM50lHYujG.xCdP.GgxJx8TX7Lx7cS33tnlRTHK","viewer"
+"4","mnm","nabil.4.mahmud@gmail.com","$2y$10$cqH9YOjUoop0j2HNsHARAePAS79ysbhP..kDVpXThYUSQH9Yhe.kC","team_manager"
+"9","admin1","nabil4.4@outlook.com","$2y$10$kJSYFUGltqDiyroWjcA6e.1H8Y4GCvRORpsDie0H0Bbg5F6Fz9sD2","team_manager"
+"15","admin12","shimun@dffdsa","$2y$10$fqK3TBFow1jKJm.lr0pCPe2pou.zIQQbk3gweun2dz1M8h529AUl6","team_manager"
