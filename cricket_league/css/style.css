@@ -1,0 +1,243 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Background image + gradient overlay */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('cric.webp') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: #f9f9f9; /* Light text for dark background */
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    color: #f1f1f1;
+}
+
+/* Links */
+a {
+    color: #80dfff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 0 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.navbar a {
+    color: #f2f2f2;
+    padding: 16px 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    background-color: #f4f4f4;
+    color: #111;
+    border-radius: 6px;
+}
+
+.navbar .logout {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.4) !important; /* Changed for better contrast */
+    color: #f9f9f9 !important; /* Ensure white text */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    text-align: left;
+    color: #f9f9f9 !important; /* Force white text */
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Forms */
+form {
+    margin-top: 30px;
+}
+
+input[type=text],
+input[type=password],
+input[type=datetime-local],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Buttons */
+button,
+.btn-add {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover,
+.btn-add:hover {
+    background-color: #0056b3;
+}
+
+.btn-add {
+    background-color: #28a745;
+    margin-bottom: 20px;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+/* Action Buttons */
+.btn-edit {
+    color: #ffc107;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-delete {
+    color: #dc3545;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-update {
+    color: #17a2b8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Quick Actions */
+h2 {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.quick-actions {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quick-actions li {
+    margin: 10px 0;
+}
+
+.quick-actions a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.quick-actions a:hover {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.quick-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    backdrop-filter: blur(2px);
+}
+
+.quick-btn:hover {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* Chart Canvas Background */
+canvas#performanceChart {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
